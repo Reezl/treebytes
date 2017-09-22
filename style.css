@@ -1,0 +1,100 @@
+body,html {
+  height: 100%;
+  
+}
+
+body {
+  padding-top: 50px;
+
+
+}
+
+.imgCadeado{
+  margin-top: 10px;
+  background-image: url(http://www.gpcombustiveis.com.br/site/wp-content/themes/gp/html/images/icone-cadeado.png);
+  background-size: cover;
+  margin-left: 88%;
+  
+ 
+  
+ 
+}
+
+.imgCadeado:hover{
+  background-image: url(http://www.redebatista.edu.br/Pagina_NEAD/imagens/cadeado_aberto.png);
+  background-size: cover;
+}
+
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-image:url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-18.png);
+  background-size:cover;
+}
+
+.wide img {
+  width:100%;
+}
+
+.logo {
+  color:#fff;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
+
+}
+
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
+
+.postagem{
+  width: 100%;
+  text-align: justify;
+  padding-bottom: 20px;
+
+}
+
+footer{
+  width: 100%;
+  background-color: #d1e1ff;
+  overflow-x: hidden;
+}
+.rodape{
+  text-align: center;
+  line-height: 50px;
+
+}
+.rodape a{
+  padding: 10px 50px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  
+}
+
+.rodape .facebook{
+  background-color: #285fc3;
+  color: white;
+
+ 
+}
+
+.rodape .twitter{
+  background-color: #29b3f5;
+  color: white;
+}
+
+.rodape .youtube{
+  background-color: #c32828;
+  color: white;
+}
+
+.rodape .copy{
+  text-align: center;
+  font-weight: 800;
+}
