@@ -7,6 +7,7 @@
 		<title>Analist</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
+		<script src="jscript.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -26,8 +27,20 @@
 				<li><a href="#about">SOBRE</a></li>
 			  </ul>
 			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="#">LOGIN</li>
-				<div class="imgCadeado" style="width:25px;height:25px;"></div></a>
+			    <!-- Show Login Form -->
+
+				<li class="li-login" onmouseover="showLoginForm('showform')" onmouseout="showLoginForm('')"><a>LOGIN</a>
+					<div id="divLogin">
+						<form id="formLoginId" class="formLogin" method="" >
+							<label>Usuário: </label><br>
+							<input type="username" placeholder="Usuário"/><br><br>
+							<label>Senha: </label><br>
+							<input type="password" placeholder ="*****"/><br><br>
+							<input class="btn-entrar" value="Entrar" type="submit" onclick="window.location.href='#postagem'">
+						
+						</form>
+					</div>
+				</li>
 				
 			  </ul>
 			</div><!--/.nav-collapse -->

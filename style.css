@@ -9,6 +9,29 @@ body {
 
 }
 
+/* SHOW FORM */
+
+.formLogin{
+  position: absolute;
+  float: right;
+  background-color: rgba(120,120,120,.2);
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: -55px;
+}
+
+.formLogin label{
+  color: white;
+}
+
+.formLogin input{
+  
+  border: 1px solid rgba(120,120,120,.2);
+  border-radius: 3px;
+  padding: 3px;
+}
+
+
 .imgCadeado{
   margin-top: 10px;
   background-image: url(http://www.gpcombustiveis.com.br/site/wp-content/themes/gp/html/images/icone-cadeado.png);
